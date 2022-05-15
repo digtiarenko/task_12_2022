@@ -12,8 +12,23 @@
     />
   </head>
   <body>
+    <div class="container">
+      <div class="find_container">
+        <form autocomplete="off">
+          <label>
+            <input
+              class="form_input"
+              type="text"
+              name="country"
+              placeholder="enter country"
+          /></label>
+        </form>
+        <div class="result_form"></div>
+      </div>
+    </div>
+
     <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
-    <include src="./partials/example.html"></include>
+    <!-- <include src="./partials/example.html"></include> -->
 
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
     <script src="./index.js"></script>
