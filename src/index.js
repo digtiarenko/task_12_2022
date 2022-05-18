@@ -25,8 +25,6 @@ function handleInput(event) {
       renderCountries(data);
     }
   });
-
-  //   console.log(inputValue);
 }
 
 function renderCountries(data) {
